@@ -23,15 +23,12 @@ Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
 
 ![](assets/screenshot.png)
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -47,7 +44,7 @@ Users should be able to:
 - axios 
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 
 
@@ -57,10 +54,8 @@ Users should be able to:
 - Website - [Debaili samy](https://samdem-ai.github.io/personalSite/)
 - Frontend Mentor - [@samdem-ai](https://www.frontendmentor.io/profile/samdem-ai)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
 a big Thank you to both of  colt steele and the net ninja who are helping me through my frontend developenent carrere
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
