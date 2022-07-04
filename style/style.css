@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "M";
+  src: url("/assets/Manrope-VariableFont_wght.ttf");
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(150, 100%, 66%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(150, 100%, 66%);
+  text-decoration: underline;
+}
+
+.bContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mContainer {
+  background-color: hsl(217, 19%, 27%);
+  width: 90%;
+  border-radius: 10px;
+  color: hsl(150, 100%, 66%);
+  font-family: "M";
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mContainer__header {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.mContainer__advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  padding: 0 1rem;
+}
+
+.mContainer__divider {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mContainer__random {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  margin-top: -36px;
+}
+
+.mContainer__random:hover {
+  animation: glow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes glow {
+  to {
+    box-shadow: 0 0 15px hsl(150, 100%, 66%);
+  }
+}
+@media (min-width: 550px) {
+  .mContainer {
+    width: 70%;
+  }
+
+}
+
+@media (min-width: 900px) {
+  .mContainer {
+    width: 40%;
+  }
+
+
+}
+
+@media (min-width: 1400px) {
+  .mContainer {
+    width: 25%;
+    padding: 0 1.2rem;
+  }
+
+}

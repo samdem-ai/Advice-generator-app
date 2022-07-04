@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body>
+    <div class="bContainer">
+      <div class="mContainer">
+        <h1 class="mContainer__header">
+          A D V I C E #
+          <span id="adviceNumber"><!-- Advice id goes here --></span>
+        </h1>
+        <p class="mContainer__advice">
+          <!-- Advice text goes here -->
+        </p>
+        <img
+          src="assets/pattern-divider-mobile.svg"
+          class="mContainer__divider"
+        />
+      </div>
+      <button class="mContainer__random" id="randomize">
+        <img src="assets/icon-dice.svg" alt="dice" />
+      </button>
+
+      <div class="attribution">
+        <p class="mContainer__footing">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/samdem-ai/">Debaili Samy</a>.
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
