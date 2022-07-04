@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/samdem-ai/Advice-generator-app)
-- Live Site URL: [Add live site URL here](https://samdem-ai.github.io/Advice-generator-app)
+- Solution URL: [solution URL](https://github.com/samdem-ai/Advice-generator-app)
+- Live Site URL: [live site URL](https://samdem-ai.github.io/Advice-generator-app)
 
 
 ### Built with
